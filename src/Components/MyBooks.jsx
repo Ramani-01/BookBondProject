@@ -19,7 +19,7 @@ function MyBooks() {
               <li key={index} className="cursor-pointer">
                 <NavLink
                   to={item.path}
-                  className="block px-5 py-3 font-bold text-lg text-white no-underline transition-all hover:scale-110 hover:text-red-400"
+                  className="scroll-container overflow-x-auto whitespace-nowrap scroll-smooth flex gap-4 snap-x snap-mandatory hide-scrollbar"
                 >
                   {item.name}
                 </NavLink>

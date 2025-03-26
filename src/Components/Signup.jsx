@@ -49,7 +49,7 @@ const Signup = () => {
       });
       console.log("Signup success:", response.data);
       alert("Signup successful!");
-      navigate('/login')
+      navigate('/Login')
     } catch (error) {
       console.error("Signup error:", error);
       setError("Error signing up. Please try again.");
